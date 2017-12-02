@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/java-web-sock-client/java-web-sock-client.iml" filepath="$PROJECT_DIR$/java-web-sock-client/java-web-sock-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/model/model.iml" filepath="$PROJECT_DIR$/model/model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server/server.iml" filepath="$PROJECT_DIR$/server/server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-websocket-chat.iml" filepath="$PROJECT_DIR$/spring-websocket-chat.iml" />
+    </modules>
+  </component>
+</project>

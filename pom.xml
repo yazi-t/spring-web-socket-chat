@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>spring-websocket-chat</groupId>
+    <artifactId>spring-websocket-chat</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>model</module>
+        <module>server</module>
+        <module>java-web-sock-client</module>
+    </modules>
+
+    <packaging>pom</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-websocket</artifactId>
+            <version>${spring-version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-messaging</artifactId>
+            <version>${spring-version}</version>
+        </dependency>
+    </dependencies>
+
+    <properties>
+        <java-version>1.8</java-version>
+        <spring-version>4.3.0.RELEASE</spring-version>
+        <spring-security-version>4.2.3.RELEASE</spring-security-version>
+        <servlet-api-version>3.0.1</servlet-api-version>
+        <jstl-version>1.2</jstl-version>
+        <jackson-version>2.7.3</jackson-version>
+    </properties>
+</project>

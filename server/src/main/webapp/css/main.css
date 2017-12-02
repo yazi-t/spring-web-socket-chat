@@ -1,0 +1,25 @@
+.login-box {
+    background-color: #e7e7e7;
+    width: 500px;
+    margin-top: 20px;
+    padding: 20px 15px 0px 15px;
+}
+.login-error {
+    color: red;
+}
+.form-control {
+    border-radius: 0;
+    box-shadow: none;
+}
+.chat-message {
+    background: #e8e8e8;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 6px;
+}
+.my-message {
+    background: #b7bee8!important;
+}
+nav {
+    border-radius: 0!important;
+}

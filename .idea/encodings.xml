@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/java-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-web-sock-client/src/main/java/spring/web/socket/chat/client/sender/BasicWebSockJavaClient.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-web-sock-client/src/main/java/spring/web/socket/chat/client/sender/SockJsJavaClient.java" charset="UTF-8" />
+  </component>
+</project>
