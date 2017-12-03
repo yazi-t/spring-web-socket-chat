@@ -5,7 +5,7 @@ This application demonstrates the usage of spring-websocket and stomp protocol t
 
 *Refer end of the README file to get deployment info*
 
-##Basic websocket chat
+## Basic websocket chat
 
 `spring.websocket.chat.config.WebSocketConfig`, and `webSocketChat.jsp` provides example for this.
 
@@ -31,7 +31,7 @@ Need to create `@Configuration` class with `@EnableWebSocket` annotation impleme
         }
 ```
 
-##Group chat with Stomp and Sock Js
+## Group chat with Stomp and Sock Js
 
 A sample group 'topic' chat using stomp protocol and [sock js](https://github.com/sockjs/sockjs-client/blob/master/README.md)  failover mechanisms.
 
@@ -48,7 +48,7 @@ See `WebSocketSockJsBrokerConfig`, `MessageBroadcastController` and `sockJsGrpCh
 ```
 Jackson mapper library should be in the classpath to serialize return object into Json.
 
-##User-to-user chat with Stomp, Sock Js and Spring security
+## User-to-user chat with Stomp, Sock Js and Spring security
 
 A private chat application using stomp and sock js as previous and spring security for authentication.
 See `WebSocketSockJsBrokerConfig`, `SecurityConfig` and `MessageForwardController`.
@@ -68,13 +68,13 @@ See `WebSocketSockJsBrokerConfig`, `SecurityConfig` and `MessageForwardControlle
 ```
 Can send to specific authenticated user using `SimpMessagingTemplate#convertAndSendToUser`.
 
-##Websocket Java client
+## Websocket Java client
 
 Java-web-socket-client module implements this. Uses Java swing for the presentation and spring-boot for the server.
 Exchanges messages using websocket stomp protocol from Java environment.
 See `SockJsJavaClient`.
 
-##Server push notifications using EventSource API
+## Server push notifications using EventSource API
 
 An additional example from websocket to demonstrate usage of EventSource API.
 Spring provides `org.springframework.web.servlet.mvc.method.annotation.SseEmitter` for HTML 5 Javascript EventSource API.
@@ -85,22 +85,23 @@ See `PushNotificationController`.
 ```
 *Note: This is not categorized under spring websocket even though this sample implementation contained.*
 
-##Deployment information
+## Deployment information
 
-###Tested environment
+### Tested environment
 1. Java version: JDK 8
 2. Servlet container: Apache Tomcat 8.5.15
 3. Build tool: Maven
 
-###Deploying steps
-####Main project and server
+### Deploying steps
+
+#### Main project and server
 1. `cd` into project.
 2. Build project with `mvn install`
 3. Copy server/target/sample-chat.war into tomcat server.
 4. Run tomcat.
 5. Visit http://localhost:{tomcat-port}/sample-chat/ from browser.
 
-####Java client
+#### Java client
 1. Build main project. (since server and java client both uses 'model' module)
 2. cd into java-web-sock-client.
 3. Run app using `mvn spring-boot:run`.
