@@ -1,7 +1,7 @@
 # spring-web-socket-chat
 Sample chat application with spring web socket, Sock Js and Stomp protocol
 
-This application demonstrates the usage of spring-websocket and stomp protocol to build a simple chat application. Shows examples for basic websocket messaging without stomp and sock js, group broadcasting message using stomp and sock js,user-to-user chat with spring security authentication, websocket java client implementation using spring-boot and java swing and also an out-of-topic example to push notifications using EventSources, SseEmitters.
+This application demonstrates the usage of spring-websocket and stomp protocol to build a simple chat application. Shows examples for basic websocket messaging without stomp and sock js, group broadcasting message using stomp and sock js, user-to-user chat with spring security authentication, websocket java client implementation using spring-boot and java swing and also an out-of-topic example to push notifications using EventSources, SseEmitters.
 
 *Refer end of the README file to get deployment info*
 
@@ -103,5 +103,5 @@ See `PushNotificationController`.
 
 #### Java client
 1. Build main project. (since server and java client both uses 'model' module)
-2. cd into java-web-sock-client.
+2. `cd` into java-web-sock-client.
 3. Run app using `mvn spring-boot:run`.
